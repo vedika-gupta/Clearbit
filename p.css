@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    background-color: hsla(209, 21%, 94%, 0.97);
+    background-image: radial-gradient(at 55% 53%, hsla(280, 87%, 71%, 1) 0px, transparent 50%),
+        radial-gradient(at 72% 68%, hsla(229, 77%, 38%, 0.98) 0px, transparent 50%),
+        radial-gradient(at 38% 31%, hsla(220, 20%, 96%, 0.95) 0px, transparent 50%);
+    height: 100vh;
+    text-align: center;
+
+}
+
+.header {
+    top: 0;
+    Left: 0;
+    Width: 100%;
+
+}
+
+.main ul {
+
+    display: inline-flex;
+    list-style: none;
+
+
+}
+
+.main ul li {
+    width: 100px;
+    margin: 12px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    font-family: Inter,
+        system-ui,
+        -apple-system,
+        Segoe UI,
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        Apple Color Emoji,
+        Segoe UI Emoji;
+    color: rgb(39, 50, 102);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+header .logo {
+    width: 20%;
+    padding-left: 32px;
+    padding-top: 40px;
+    font-weight: 900;
+
+    font-family: Inter,
+        system-ui,
+        -apple-system,
+        Segoe UI,
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        Apple Color Emoji,
+        Segoe UI Emoji;
+
+
+}
+
+.logo a {
+    text-decoration: none;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main logo {
+    width: 0%;
+    position: fixed;
+    padding-left: 40px;
+    text-decoration: none;
+
+}

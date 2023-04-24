@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.body{
+    position: relative;
+}
+.header{
+    position: fixed;
+}
+
+
+.main{
+    background-color: hsla(209, 21%, 94%, 0.97);
+    background-image: radial-gradient(at 55% 53%, hsla(280, 87%, 71%, 1) 0px, transparent 50%),
+        radial-gradient(at 72% 68%, hsla(229, 77%, 38%, 0.98) 0px, transparent 50%),
+        radial-gradient(at 38% 31%, hsla(220, 20%, 96%, 0.95) 0px, transparent 50%);
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    text-align: center;
+
+}
+.navbar {
+    width: 100%;
+    display: inline-flex;
+    height: 85px;
+    background-color: #EDF1F4;
+    align-items: center;
+}
+
+.main ul li {
+    width: 100px;
+    margin: 12px;
+    display: inline-flex;
+    position: relative;
+    left: 50px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    font-family: Inter,
+        system-ui,
+        -apple-system,
+        Segoe UI,
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        Apple Color Emoji,
+        Segoe UI Emoji;
+    color: rgb(39, 50, 102);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.logo {
+    width: 20%;
+    padding-left: -30px;
+}
+.logo img{
+    width: 40px;
+}
+.logoname{
+    position: relative;
+    left: -115px;
+    font-size: 22px;
+
+}
+.logoname a{
+    text-decoration: none;
+    font-family: Inter,
+            system-ui,
+            -apple-system,
+            Segoe UI,
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif,
+            Apple Color Emoji,
+            Segoe UI Emoji;
+        color: rgb(39, 50, 102);
+        font-weight: 500;
+}
+.login-container{
+    position: relative;
+    left: 180px;
+}
+.login-container a{
+    padding: 0px 14px;
+    text-decoration: none;
+    font-family: Inter,
+            system-ui,
+            -apple-system,
+            Segoe UI,
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif,
+            Apple Color Emoji,
+            Segoe UI Emoji;
+        color: rgb(39, 50, 102);
+        font-weight: 420;
+        font-size: 17px;
+}
+.login-container button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EDF1F4;
+}
