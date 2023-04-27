@@ -1,111 +1,299 @@
 * {
-    margin: 0;
-    padding: 0;
-
-}
-.body{
-    position: relative;
-}
-.header{
-    position: fixed;
+  margin: 0;
+  padding: 0;
 }
 
+.body {
 
-.main{
-    background-color: hsla(209, 21%, 94%, 0.97);
-    background-image: radial-gradient(at 55% 53%, hsla(280, 87%, 71%, 1) 0px, transparent 50%),
-        radial-gradient(at 72% 68%, hsla(229, 77%, 38%, 0.98) 0px, transparent 50%),
-        radial-gradient(at 38% 31%, hsla(220, 20%, 96%, 0.95) 0px, transparent 50%);
-    height: 100vh;
-    width:100%;
-    background-position: center;
-    text-align: center;
-
+  overflow-x:auto;
 }
+
+.header {
+  position: fixed;
+}
+
+.main {
+  background-color: hsla(209, 21%, 94%, 0.97);
+  background-image: radial-gradient(
+      at 55% 53%,
+      hsla(280, 87%, 71%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 72% 68%, hsla(229, 77%, 38%, 0.98) 0px, transparent 50%),
+    radial-gradient(at 38% 31%, hsla(220, 20%, 96%, 0.95) 0px, transparent 50%);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  text-align: center;
+}
+
 .navbar {
-    width: 100%;
-    display: inline-flex;
-    height: 85px;
-    background-color: #EDF1F4;
-    align-items: center;
+  width: 100%;
+  display: inline-flex;
+  height: 85px;
+  background-color: #edf1f4;
+  align-items: center;
 }
 
 .main ul li {
-    width: 100px;
-    margin: 12px;
-    display: inline-flex;
-    position: relative;
-    left: 50px;
+  width: 100px;
+  margin: 12px;
+  display: inline-flex;
+  position: relative;
+  left: 50px;
 }
 
 .main ul li a {
-    text-decoration: none;
-    font-family: Inter,
-        system-ui,
-        -apple-system,
-        Segoe UI,
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif,
-        Apple Color Emoji,
-        Segoe UI Emoji;
-    color: rgb(39, 50, 102);
-    font-size: 18px;
-    font-weight: 400;
-
+  text-decoration: none;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  color: rgb(39, 50, 102);
+  font-size: 18px;
+  font-weight: 500;
 }
+
 .logo {
-    width: 20%;
-    padding-left: -30px;
+  width: 20%;
+  padding-left: -30px;
 }
-.logo img{
-    width: 40px;
+
+.logo img {
+  width: 40px;
 }
-.logoname{
-    position: relative;
-    left: -115px;
-    font-size: 22px;
+
+.logoname {
+  position: relative;
+  left: -115px;
+  font-size: 22px;
+}
+
+.logoname a {
+  text-decoration: none;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  color: rgb(39, 50, 102);
+  font-weight: 500;
+}
+
+.login-container {
+  position: relative;
+  left: 180px;
+}
+
+.login-container a {
+  padding: 0px 14px;
+  text-decoration: none;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  color: rgb(39, 50, 102);
+  font-weight: 420;
+  font-size: 17px;
+}
+
+.login-container button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #edf1f4;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 90vh;
+}
+
+.first-half {
+  width: 25%;
+  position: relative;
+  left: 170px;
+  top: 80px;
+}
+
+.first-half .text-big {
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 700;
+  color: rgb(39, 50, 102);
+  font-size: 60px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.first-half .text-small {
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 500;
+  color: rgb(39, 50, 102);
+  font-size: 18px;
+  text-align: left;
+}
+
+.first-half button {
+  color: aliceblue;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 500;
+  background-color: rgb(55, 67, 231);
+  padding: 10px 22px;
+  border-radius: 10px;
+  position: relative;
+  left: -135px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.second-half {
+  width: 25%;
+  position: relative;
+  left: 60%;
+  top: -900px;
+}
+.second-half img {
+  width: 500px;
+}
+
+.middle-half {
+  width: 50%;
+  position: relative;
+  left: 30%;
+  top: -250px;
+}
+.middle-half .text-last {
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 400;
+  color: rgb(39, 50, 102);
+  font-size: 17px;
+  text-align: center;
+  padding-top: 120px;
+  padding-right: 90px;
+}
+.brands li img {
+  width: 100px;
+  margin: 10px 0px;
+  position: relative;
+  top: -250px;
+}
+
+.platform .head2 {
+  margin: 25px 400px;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 700;
+  color: rgb(39, 50, 102);
+  font-size: 55px;
+  text-align: center;
+  padding-top: 35px;
+}
+.platform .para1 {
+  margin: 10px 350px;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 480;
+  color: rgb(39, 50, 102);
+  font-size: 20px;
+  text-align: center;
+}
+.platform .para2 {
+  margin: 20px 350px;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 480;
+  color: rgb(39, 50, 102);
+  font-size: 20px;
+  text-align: center;
+}
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+.flesbox-item{
+  width: 180px;
+  margin: 15px 32px;
+  border: 2px solid white;
+  background-color: #fff;
+}
+.flexbox-item-1{
+  min-height: 100px;
+}
+.flexbox-item-2{
+  min-height: 160px;
+}
+.flexbox-item-3{
+  min-height: 210px;
+}
+.mota{
+  text-align: center;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 780;
+  color: rgb(55, 90, 143);
+  font-size: 60px;
 
 }
-.logoname a{
-    text-decoration: none;
-    font-family: Inter,
-            system-ui,
-            -apple-system,
-            Segoe UI,
-            Roboto,
-            Helvetica,
-            Arial,
-            sans-serif,
-            Apple Color Emoji,
-            Segoe UI Emoji;
-        color: rgb(39, 50, 102);
-        font-weight: 500;
+.patla{
+  text-align: center;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 500;
+  color: rgb(76, 106, 150);
+  font-size: 17px;
+  padding-top: 10px;
+
 }
-.login-container{
-    position: relative;
-    left: 180px;
+.chargebee{
+  width: 100px;
+  margin: 10px 41px;
 }
-.login-container a{
-    padding: 0px 14px;
-    text-decoration: none;
-    font-family: Inter,
-            system-ui,
-            -apple-system,
-            Segoe UI,
-            Roboto,
-            Helvetica,
-            Arial,
-            sans-serif,
-            Apple Color Emoji,
-            Segoe UI Emoji;
-        color: rgb(39, 50, 102);
-        font-weight: 420;
-        font-size: 17px;
+.platform button{
+  width: 180px;
+  height: 40px;
+  color: aliceblue;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: rgb(55, 67, 231);
+  padding: 0px 22px;
+  border-radius: 10px;
+  /* margin: 0% 45%; */
+  position: relative;
+  left: 45%;
+  cursor: pointer;
 }
-.login-container button{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #EDF1F4;
+.customers{
+  background-color: #edf1f4;
+}
+.customers .head3{
+  margin: 30px 500px;
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 700;
+  color: rgb(39, 50, 102);
+  font-size: 55px;
+  text-align:left;
+  padding-top: 45px;
+  position: relative;
+  left: 28%;
+}
+.customers .para3{
+  font-family: Eina, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: 450;
+  color: rgb(39, 50, 102);
+  font-size:18px;
+  text-align:left;
+  width: 35%;
+  position: relative;
+  left: 61%;
+  padding-bottom: 60px;
+
+}
+.sec3{
+  width: 380px;
+  margin: -200px 41px;
 }
